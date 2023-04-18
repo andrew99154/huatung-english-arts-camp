@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Noto-Serif;
+    src: url(../font/Noto_Serif_TC/NotoSerifTC-Regular.otf);
+}
+@font-face {
+    font-family: Noto-Serif;
+    src: url(../font/Noto_Serif_TC/NotoSerifTC-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Noto-Serif;
+    src: url(../font/Noto_Serif_TC/NotoSerifTC-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Noto-Serif;
+    src: url(../font/Noto_Serif_TC/NotoSerifTC-SemiBold.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Noto-Serif;
+    src: url(../font/Noto_Serif_TC/NotoSerifTC-Light.otf);
+    font-weight: 300;
+}
+div{
+    font-family: Noto-Serif;
+}
