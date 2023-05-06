@@ -2,62 +2,6 @@ body {
     font-family: "Microsoft JhengHei", sans-serif;
 }
 
-#navLogo{
-    height: 4em;
-    /* float: left; */
-    /* padding-left: 3em; */
-}
-
-#top-navbar{
-    width: 100%;
-    box-shadow: 0 0 5px rgba(0,0,0,0.4);
-    background-color: #ffffff;
-    /* margin-top: -6em; */
-    padding: 0;
-    top: 0;
-    position: fixed;
-    z-index: 100;
-}
-
-.navbar-brand{
-    display: flex !important;
-    align-items: center;
-}
-
-#navTitle{
-    height: 100%;
-    margin-left: 1em;
-}
-
-#nav-btns{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-btn{
-    padding: 0 1.2em;
-
-}
-
-.nav-btn-text{
-    font-size: 1.05em;
-}
-
-#navbarSupportedContent{
-    padding-left: 3em;
-    padding-right: 3em;
-}
-
-.banner{
-    max-height: 42em;
-    overflow: hidden;
-    display: flex !important;
-    align-items: center;
-    margin-top: 5em;
-}
-
-
 .banner-wrapper{
     padding: 0 3em;
     overflow: hidden;
@@ -71,6 +15,10 @@ body {
 .img-container{
     height: 20em;
     overflow: hidden;
+}
+
+.begin-story{
+    background-color: #ffffff;
 }
 
 .begin-title{
@@ -90,18 +38,6 @@ body {
 #op1{
     background-image: url("../img/test.jpg");
 }
-
-/* #op2{
-    background-image: url("../img/test.jpg");
-}
-
-#op3{
-    background-image: url("../img/test.jpg");
-}
-
-#op4{
-    background-image: url("../img/test.jpg");
-} */
 
 .op{
     position: relative;
@@ -148,6 +84,17 @@ body {
 .slick-next:before, .slick-prev:before{
     color: #808080 !important;
 }
+
+.content{
+    background-color: #f1eee9;
+    padding: 1.7em;
+}
+
+.content > div{
+    border-radius: .6em;
+    overflow: hidden;
+}
+
 
 /* @media (min-width: 992px) {
     .wrapper{
