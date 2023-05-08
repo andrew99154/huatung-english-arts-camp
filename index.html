@@ -174,8 +174,10 @@
 
   </div>
   <script type="text/javascript">
-    $('.banner').slick({
-      arrows: true
+    $(window).on('load', function() {
+      $('.banner').slick({
+        arrows: true
+      });
     });
   </script>
 </body>
