@@ -34,7 +34,12 @@
 }
 
 .content {
-    padding: 2em 5em;
+    padding: 1.5em 5em;
+}
+
+.person-card-wrapper{
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .person-card {
@@ -94,5 +99,17 @@
         -ms-flex: 0 0 20% !important; 
         flex: 0 0 20% !important;
         max-width: 20% !important;
+    }
+}
+
+@media (max-width: 575px){
+    .content{
+        padding: .5em 1em;
+    }
+    .person-card-wrapper{
+        padding-left: .5em !important;
+        padding-right: .5em !important;
+        padding-top: .5em;
+        padding-bottom: .5em;
     }
 }

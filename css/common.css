@@ -2,10 +2,16 @@ body {
     font-family: "Microsoft JhengHei", sans-serif;
 }
 
-#navLogo{
-    height: 4em;
+#navLogo-xl{
+    height: 2.5em;
+    display: none;
     /* float: left; */
     /* padding-left: 3em; */
+}
+
+#navLogo{
+    height: 3em;
+
 }
 
 #top-navbar{
@@ -51,8 +57,11 @@ body {
     align-items: center;
 }
 
-@media (max-width:991px){
-    #navTitle{
+@media(min-width:992px){
+    #navLogo-xl{
+        display: block;
+    }
+    #navLogo{
         display: none;
     }
 }
